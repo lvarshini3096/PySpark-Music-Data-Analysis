@@ -18,6 +18,18 @@ The analysis is performed on two datasets from Last.fm:
 * `listenings.csv`: Contains records of user listening activity (user_id, track, artist, album). This file is approximately 1 GB.
 * `genre.csv`: Contains genre information for various artists (artist, genre).
 
+## Data Source & Citations
+
+The dataset used in this project is the Million Song Dataset. We acknowledge and thank the creators for making this valuable resource available.
+
+**Publication:**
+
+Thierry Bertin-Mahieux, Daniel P.W. Ellis, Brian Whitman, and Paul Lamere. **The Million Song Dataset**. In *Proceedings of the 12th International Society for Music Information Retrieval Conference (ISMIR 2011)*, 2011.
+
+**Website:**
+
+Million Song Dataset, official website by Thierry Bertin-Mahieux, available at: http://millionsongdataset.com/
+
 ## Key Analysis Questions
 
 This project answers a series of questions to uncover trends in the music listening data:
