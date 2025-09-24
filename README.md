@@ -48,4 +48,4 @@ This project answers a series of questions to uncover trends in the music listen
 1.  **Environment:** The notebook is designed to run in Google Colab.
 2.  **Mount Google Drive:** The large `listenings.csv` file is stored on Google Drive. You will need to mount your Drive to the Colab environment using the code in the notebook.
 3.  **Data Path:** Update the file path in the notebook to match the location of your `listenings.csv` and `genre.csv` files on your Google Drive.
-4.  **Run Cells:** Execute the cells in the `pyspark_music_analysis.py` script sequentially to replicate the analysis.
+4.  **Run Cells:** Execute the cells in the `music_data_analysis.py` script sequentially to replicate the analysis.
