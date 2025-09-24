@@ -15,7 +15,7 @@ The goal of this project was to apply PySpark to a real-world dataset that's too
 
 The analysis is performed on two datasets from Last.fm:
 
-* `listening.csv`: Contains records of user listening activity (user_id, track, artist, album). This file is approximately 1 GB.
+* `listenings.csv`: Contains records of user listening activity (user_id, track, artist, album). This file is approximately 1 GB.
 * `genre.csv`: Contains genre information for various artists (artist, genre).
 
 ## Key Analysis Questions
@@ -46,6 +46,6 @@ This project answers a series of questions to uncover trends in the music listen
 ## How to Run the Project
 
 1.  **Environment:** The notebook is designed to run in Google Colab.
-2.  **Mount Google Drive:** The large `listening.csv` file is stored on Google Drive. You will need to mount your Drive to the Colab environment using the code in the notebook.
-3.  **Data Path:** Update the file path in the notebook to match the location of your `listening.csv` and `genre.csv` files on your Google Drive.
+2.  **Mount Google Drive:** The large `listenings.csv` file is stored on Google Drive. You will need to mount your Drive to the Colab environment using the code in the notebook.
+3.  **Data Path:** Update the file path in the notebook to match the location of your `listenings.csv` and `genre.csv` files on your Google Drive.
 4.  **Run Cells:** Execute the cells in the `pyspark_music_analysis.py` script sequentially to replicate the analysis.
