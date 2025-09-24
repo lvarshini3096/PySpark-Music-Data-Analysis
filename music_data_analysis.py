@@ -26,7 +26,7 @@ listening_df.printSchema()
 # Part 3: Initial Investigation of the dataset
 
 # 1. All records for users who listened to Rihanna
-rihanna_records = listening_df.filter(col("artist") == "rihanna")
+rihanna_records = listening_df.filter(col("artist") == "Rihanna")
 rihanna_records.show(5)
 
 # 2. Top 10 fans of Rihanna
