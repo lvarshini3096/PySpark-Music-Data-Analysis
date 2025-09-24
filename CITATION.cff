@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the following publication."
+authors:
+- given-names: Thierry
+  family-names: Bertin-Mahieux
+- given-names: Daniel P.W.
+  family-names: Ellis
+- given-names: Brian
+  family-names: Whitman
+- given-names: Paul
+  family-names: Lamere
+title: "The Million Song Dataset"
+conference:
+  name: "Proceedings of the 12th International Society for Music Information Retrieval Conference (ISMIR 2011)"
+year: 2011
+url: "http://millionsongdataset.com/"
